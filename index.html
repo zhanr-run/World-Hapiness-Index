@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8">
+  <title>Happiness Score</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+</head>
+  
+<body>
+  <div class="header typetura">
+  <nav>
+    <div class="logo"> Happiness Level</div>
+
+    <ul class="links">
+      <li><a href=#scorechange>Score Changes</a></li>
+      <li><a href=#region-variation-chart> Location Specification</a></li>
+      <li><a href=#map>Score Map</a></li>
+      <li><a href=#further-analysis>Further Analysis</a></li>
+    </ul>
+  </nav>
+
+  <img
+    class="header-img"
+    src="https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    alt=" "
+  />
+    
+  <div class="header-group">
+    <h3 class="label"> Analysis</h3>
+    <h1 class="primary-headline typetura">
+      The Happiness Scores Of Countries Across The World
+    </h1>
+    <h3 class="byline">Group Work</h3>
+    <h4 class="dateline">April 27, 2021</h4>
+  </div>
+</div>
+
+<article class="article">
+  <p class="big typetura">
+    One may say happiness doesn’t depend on any external conditions, it is governed by our mental attributes – Dale Carnegie, other’s may say happiness is the spiritual experience of living every minute with love, grace, and gratitude – Denis Waitley.
+  
+    Despite the complexity and district standard of happiness, we have managed to present a clear visualization of happiness score performance across all countries around the world, based on precise and reliable data collected from – World Happiness Report. It may provide another perspective on defining what is happiness.
+    </p>
+  
+  <p>
+     The project has visualized the insides found during the analysis process, providing the possibility of determining the different characteristics of the happiness score collected from the World Happiness Report and its further clarification on the variable’s correlation. The analysis was reached significant insides of happiness that weren’t taken into consideration previously.
+  </p>
+  <p>
+    The first figure of scattering happiness score changes by countries over the years showed the most well-performing region in terms of the happiness scores was Western Europe, the second figure; box-based visualization was trying to understand the Contagiousness and heredity of happiness score across the regions and countries, and further conducted a clear overview of the countries mean score over 5 years presented in form of a map.  
+    </p>
+  <p>
+    To further understand the different variables defining the happiness score, take a look at the bottom of the website within the further analysis.
+  </p>
+  
+  <div id = 'scorechange'>
+    <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>                
+    <div id="cf1bd3fb-3e7d-44e3-a77a-abc915d471a2" class="plotly-graph-div" style="height:100%; width:100%;"></div> 
+  <p>
+   Though applying the happiness score of countries collected into the world map, further conducted score changes over the years from 2015 to 2019 by geographic locations. Where the locations with a larger scatter size refer to a higher happiness score. 
+  </p>
+   <p>
+   As presented, we can see the larger scatter over the years is always located in European countries. Moreover, Western Europe has significantly better happiness score performance due to the continuous collapse on the scatters in comparison with other areas. Southeastern Asia is a geographic location where has a large number of countries in a relevantly small area as Western Europe, however, we can see the lack of scattering overlap as happened in Western Europe. Based on the happiness score change visualized map we can conclude; Western Europe is the area with the best happiness score record.
+     </p>
+    </div>
+  
+  <div id="region-variation-chart" class="region-row row"> 
+    <div class="sidebar variation-sidebar">
+      <h3>The Contagiousness of happiness score.</h3>
+      <p>
+        From the previous visualization, we have defined the Western European countries that have the best happiness score performance over the years, a question comes into the mind. Does the happiness score have contagiousness? To be able to answer this question, the analysis took a step further.
+      </p>
+      <div class="variation-chart">
+      <div id="6908c8e0-c4ae-4646-8ddc-322b1b11b643" class="plotly-graph-div" style="height:100%; width:100%;"></div> 
+      </div>
+      <p>
+        The data was visualized by boxes of countries with gradient colors from yellow which represents the highest happiness score of 8 to dark blue representing the worse happiness score of 1. Further inserted the countries box into geographical location boxes, Central and Eastern Europe, Sub-Saharan Africa, Western Europe, Latin America and Caribbean, Middle East and Northern Africa, Southeastern Asia, Eastern Asia, Southern Asia, Australia, and New Zealand, and finally North America.
+      </p>
+      <p>
+        The purpose of the box-based visualization is to avoid the miss leading visualization of area happiness, due to the countries density difference of each geographic location, the box-based visualization can show a better average happiness score of each region. As the visualization shows, most of the countries within the same geographic locations tends to have similar happiness score. For example, all Western European countries have a happiness score of around 6 whereas Sub-Saharan Africa’s countries' happiness score is all-around 4. 
+      </p>
+       <p>
+      Moreover, a region with an average high happiness score performance rarely has very poor performing countries as same as a region with an average low happiness performance rarely has a country with high happiness score performance. Therefore, it may also conclude the happiness level has some extend of contagiousness.  
+    </p> 
+      </div> 
+  </div>
+  
+    
+  
+  <div class="map-row row">
+    <div id="map" class="hanppiness-map plot"> 
+      <div id="a3ab8908-4ba3-4465-8f1a-d69684bb505e" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+      </div>
+        
+      </div>
+  <p>
+    In terms to visualize the happiness score of all the countries across the world, the mean happiness score of the countries over 5 years from 2015 to 2019 was computed and further colored the map with gradient color, from bright yellow to dark blue referring highest happiness score to lowest happiness score, to gain a better understanding by simply the first impression of the country’s happiness score performance, further inset the precise score of each country.
+  </p>
+</article>
+  
+  <div id="further-analysis">
+    <h2 class="section-label"> FURTHER ANALYSIS </h2>
+
+<table><tr>
+<td><a href="https://codepen.io/DongqiQin/project/full/AyPrvz"> <a class="nextclick-article typetura">
+    <div style="text-align:center">
+      <img class="box"
+           src="https://www.dropbox.com/s/mv57r49sb3xgnlo/coverpage1.png?dl=1"
+           alt=" "
+           />
+    <h3 class="primary-headline typetura"
+        ><a href="general_view.html">
+      General View</a>
+    </h3>
+      </div>
+  </a></a></td>
+<td><a href="https://codepen.io/DongqiQin/project/full/AyPrvz">  <a class="nextclick-article typetura">
+     <div style="text-align:center">
+    <img class="box"
+src="https://www.dropbox.com/s/nmgr7nx8kirmozn/coverpage2.png?dl=1"
+      alt=" "
+    />
+    <h3 class="primary-headline typetura"
+         text-align = center;><a href="correlated_var.html">
+      Correlated Variables </a>
+    </h3>
+    </div>
+  </a></a></td>
+<td><a href="https://codepen.io/DongqiQin/project/full/AyPrvz"> <a class="nextclick-article typetura">
+  <div style="text-align:center">
+    <img class="box"
+src="https://www.dropbox.com/s/a4ksfn75tffyjh3/coverpage3.png?dl=1"
+      alt=" "
+    />
+    <h3 class="primary-headline typetura"
+        text-align = right;>
+      <a href="explore_corr.html">
+      Explore Correlations</a>
+    </h3>
+    </div>
+  </a> 
+</a></td>
+</tr></table>
+  
+  
+  
+  
+<footer>
+  <div class="logo">HAPPINESS LEVEL</div>
+  <small>
+    Special thank you to <a href="www.c-a-s-t.com">CAST</a> for providing <a href="http://solesans.c-a-s-t.com/">Sole Sans</a> for the text of this demo and to
+    <a href="https://djr.com/">David Jonathan Ross</a> and
+    <a href="https://fontofthemonth.club/">Font of the Month Club</a> for
+    <a href="https://djr.com/notes/job-clarendon-font-of-the-month"
+      >Job Clarendon</a
+    >
+    and
+    <a
+      href="https://djr.com/notes/roslindale-display-widths-font-of-the-month"
+      >Roslindale</a
+    >.
+    
+   Images sourced from <a href="https://unsplash.com/">Unsplash</a>, the data sourced from <a href="https://www.kaggle.com/unsdsn/world-happiness">Kaggle</a>  and used only for academic purposes, with respect to copyright.
+    
+   You can find more details about hapiness score report on <a href="https://worldhappiness.report/"> World Happiness Report</a>.
+   
+  </small>
+</footer>
+
+  
+<script src="scripts/index.js"></script>
+  
+</body>
+  
+</html>
