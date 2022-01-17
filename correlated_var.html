@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8">
+  <title>Happiness Score</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+    <style>
+    .row {
+      display: flex;
+    }
+    figure {
+      flex: 1;
+      max-width: 70%;
+    }
+      .sidebar{
+        text-align: left;
+        border: 4px solid var(--color);
+        max-width: 320px;
+        max-height: 380px;
+        margin-top: 100px;
+        margin-top: 5%;
+        padding: 20px;
+        box-shadow: 2px 2px 2px grey;
+        border-radius: 10px;
+        font-family: sans-serif;
+        overflow: auto;
+      }
+      figure.factors-dis {
+        max-width: 65%;
+      }
+      
+      .heatmap-sidebar {
+        margin-left: -10px;
+      }
+      
+      .factors-dis-sidebma{
+        margin-left: 50px;
+        
+      }
+      
+      
+    </style>
+</head>
+  
+<body>
+  <div class="header typetura">
+  <nav>
+    <div class="logo"> Further Analysis</div>
+
+    <ul class="links">
+      <li><a href="general_view.html">General View</a></li>
+      <li>Correlated Variables</li>
+      <li><a href="explore_corr.html">Explore Correlations</a></li>
+      <li><a href="index.html">Back</a></li>
+    </ul>
+  </nav>
+  </div>
+<div class="row">
+  <figure class="heatmap plot">
+    <img
+         src="https://www.dropbox.com/s/sd4u18i3633hre6/heatmap.png?dl=1" alt=" "
+    />
+    <figcaption>Figure 3: The Heatmap</figcaption>
+   </figure>
+    <div class="sidebar heatmap-sidebar">
+  <p>
+    The heatmap through presenting a matrix layout with color and shading to show the relationship between categories of values provides a better <strong>view of the correlation of the variables</strong>. As shown on the heatmap the relation between the score and <strong>economy</strong> has the highest correlation of 0.83, then goes to <strong>health</strong> with a correlation of 0.81 and the third most important variable goes to a <strong>family</strong> with a correlation of 0.80. Therefore, we can conclude for the World Happiness Report, their standard of defining happiness is based on economy, health, and family, which also applies the same as <strong>Maslow’s hierarchy of needs</strong>, the basic needs as always, the base of happiness. In another hand, generosity and corruptions seem to have less influence on the total happiness scores of countries.  
+  </p>
+  <p>
+   Despite the lack of correlation of happiness score with the corruption from the heatmap, we <strong>cannot</strong> simply conclude the lack of influence on the happiness score by the corruption, <strong>the corruption level can have a direct linkage with countries economic development</strong> which is a key variable for the happiness score, therefore the data can have a <strong>survivorship bias</strong> in term of corruption. where the world happiness report hasn’t presented a more in-depth influence of this factor reflecting the happiness score.
+  </p>
+      </div>
+   </div>
+  
+    <div class="row">
+  <figure class="factors-dis plot">
+    <img
+         src="https://www.dropbox.com/s/rruil6py2o1zfvl/variables.png?dl=1" alt=" "
+    />
+    <figcaption>Figure 4: The Distribution of 6 Factors</figcaption>
+   </figure>
+    <div class="sidebar factors-dis-sidebar">
+  <p>
+    Most of the corruption score lays not more than 0.4 scores, which based on the World Happiness Report it is the minor matter for scoring the happiness score. Whereas <strong>the family and economy overlap above score 1</strong>, reflecting the high proportion in defining the countries happiness score. As previously mentioned in the heatmap, the <strong>survivorship bias</strong> may lead the misleading importance of the corruption effect on the individual’s happiness in the real world, the importance of different variables can only be a reference of the real world but definitely lack to represent the real-world happiness.
+  </p>
+      </div>
+   </div>
+  
+<article class="article">
+  
+</article>
+
+<script src="scripts/index.js"></script>
+  
+</body>
